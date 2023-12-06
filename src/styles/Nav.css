@@ -2,9 +2,20 @@
     background-color: #1d4ed8;
 }
 
+.close-menu-icon {
+    padding: .25rem;
+    margin: .25rem;
+    display: none;
+    border-radius: .25em;
+}
+
 .contact-icon{
     color: white;
     font-size: 1.5rem;
+}
+
+.menu-controls {
+    display: none;
 }
 
 .nav-button {
@@ -21,7 +32,7 @@
 .nav-container {
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -46,5 +57,41 @@ nav ul li a:not(.active):hover {
     height: 75px;
     display: flex;
     justify-content: center;
-};
-/* https://react-bootstrap.netlify.app/docs/components/navbar/ */
+}
+
+.open-menu-icon {
+    padding: .25rem;
+    display: none;
+    border-radius: .25em;
+}
+
+@media (max-width: 600px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .nav-item {
+        padding: .1rem;
+        margin: .1rem;
+    }
+    .nav-button{
+        font-size: 1rem;
+        padding: .25rem;
+    }
+    .nav-main {
+        height: auto;
+    }
+    .open-menu-icon {
+        display: block;
+    }
+    .open-menu-icon:hover {
+        cursor: pointer;
+        background-color: #1d4fd88e;
+    }
+    .close-menu-icon {
+        display: block;
+    }
+    .close-menu-icon:hover {
+        cursor: pointer;
+        background-color: #1d4fd88e;;
+    }
+}

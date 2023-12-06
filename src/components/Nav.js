@@ -3,14 +3,31 @@ import {NavLink} from 'react-router-dom';
 import {RxDropdownMenu} from 'react-icons/rx';
 import {IoMdCloseCircleOutline} from 'react-icons/io';
 import {IconContext} from 'react-icons';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 
 function Nav() {
 
     const [isNavVisible, setNavVisibility] = useState(true)
+
     const toggleNavVisibility = () => {
         setNavVisibility(!isNavVisible);
     }
+
+    useEffect(() => {
+        const handleResize = () => {
+          if (window.innerWidth >= 600) {
+            setNavVisibility(true);
+          }
+        };
+    
+        window.addEventListener('resize', handleResize);
+        handleResize();
+    
+        return () => {
+          window.removeEventListener('resize', handleResize);
+        };
+        
+      }, []);
 
 
   return (

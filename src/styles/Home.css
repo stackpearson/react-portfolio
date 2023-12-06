@@ -1,0 +1,24 @@
+.bio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bio p {
+    font-size: 1.2em;
+    text-align: left;
+    padding: .25em;
+}
+
+.bio a {
+    color: blue;
+}

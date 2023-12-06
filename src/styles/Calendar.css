@@ -1,0 +1,28 @@
+.calendar {
+    display: flex;
+    padding: .5em;
+    border-radius: .5em;
+    border: 3px solid black;
+    background-color: rgb(88, 79, 95);
+    color: white;
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+}
+
+.calendar-small {
+    display: none;
+}
+
+@media (max-width: 875px) {
+    .calendar-small {
+        display: block;
+    }
+    .calendar-full {
+        display: none;
+    }
+}

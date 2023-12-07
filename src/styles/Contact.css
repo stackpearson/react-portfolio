@@ -1,8 +1,83 @@
-.contact-container {
+ form {
+  border: 5px groove purple;
+  padding: .25rem;
+  border-radius: .5em;
+  background-color: rgba(255, 255, 255, 0.632);
+ } 
+  
+  .contact-field {
+    margin: .5em;
+    padding: .25em;
+  }
+
+  .contact-field button {
+    width: 150px;
+    font-size: 1.25em;
+    color: rgba(255, 255, 255, 0.555);
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: #1d4ed8;
+  }
+
+  .contact-field button:hover {
+    font-size: 1.25em;
+    color: white;
+    border-radius: .5rem;
+    padding: .5rem;
+    background-color: green;
+    cursor: pointer;
+  }
+
+  #email {
+    height: 50px;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: .5em;
+    text-align: center;
+  }
+
+  #message {
+    width: 350px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: .5em;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  .success-message, .contact-container {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-size: 2.5em;
+  }
+
+  .success-message div {
+    display:flex;
+    width: 350px;
+    border: 5px groove purple;
+    border-radius: .25em;
+    padding: 1em;
+    margin: .2em;
+  }
+
+  @media (max-width: 475px) {
+    .contact-field {
+      margin: .15em;
+      padding: .25em;
+    }
+    .contact-header {
+      font-size: .75em;
+    }
+    #message {
+      width: 275px;
+      height: 200px;
+    }
+    #email {
+      width: 275px;
+      height: 50px;
+    }
   }

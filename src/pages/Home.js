@@ -7,7 +7,7 @@ function Home() {
     return (
     <>
         <Calendar />
-
+        
         <article className='bio-container'>
           <div className="bio">
             <p>Hello there! 👋 I'm Sawyer, a developer with a passion for crafting digital experiences through code. My journey into programming began in college when I wanted to learn how to create my own websites. I have experience with React, Node, any much more, just check out my <Link to='/skills'>skills page</Link> for a full list! I've had experience maintaining QA automation testing for one of the largest live selling platforms in the nation. I also enjoy creating personal projects in my spare time to advance my knowledge. You can check some of them out <Link to='/projects'>here</Link></p><br/>

@@ -1,0 +1,80 @@
+.education-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: .5em;
+}
+
+.education-badge h2 {
+    font-size: 2.25em;
+}
+
+.education-badge h3{
+    font-size: 1.25em;
+}
+
+.skill {
+    margin: .25em;
+    padding: .25em;
+    border-radius: .5em;
+}
+
+.skill:hover {
+    background-color: #1d4fd88e;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 3px solid black;
+}
+
+.skillsText {
+    margin: 1.5em;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsText div {
+    width: 650px;
+    display: flex;
+}
+
+.skillText-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skillText-container h2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.skillText-items {
+    width: 200px;
+    text-align: left;
+    margin: .5em;
+}
+
+.skillText-items ul {
+    list-style-type: disc;
+    font-size: 1.2em;
+}
+
+@media (max-width: 650px) {
+    .education-badge h2 {
+        font-size: 2em;
+    }
+    .education-badge h3 {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,14 @@
+.contact-icon {
+    cursor: pointer;
+    border-radius: .25em;
+    padding: .2em;
+    margin: .1em;
+}
+
+.contact-icon:hover {
+    background-color: #1d4fd88e
+}
+
+.contact-icon-container {
+    display: flex;
+}

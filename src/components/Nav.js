@@ -52,12 +52,14 @@ function Nav() {
                 <NavLink to="contact" className='nav-button'>Contact</NavLink>
             </li>
             <div className='contact-container-nav'>
-        <Phone />
-        <Email />
-    </div>
+                <Phone />
+                <Email />
+            </div>
+            
             <IconContext.Provider value={{color: "white", size: "2em", className: "close-menu-icon"}}>
                 <IoMdCloseCircleOutline onClick={toggleNavVisibility}/>
             </IconContext.Provider>
+            
         </>
         ) : (
         <>

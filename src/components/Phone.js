@@ -33,7 +33,7 @@ function Phone() {
   return (<>
     <div className="contact-icon-container" onClick={copyToClipboard}> 
         <div className='contact-icon'>
-            <IconContext.Provider value={{color: "#1d4ed8", size: "2em"}}>
+            <IconContext.Provider value={{color: "white", size: "1.75em"}}>
                 <MdLocalPhone/>
             </IconContext.Provider>
         </div>

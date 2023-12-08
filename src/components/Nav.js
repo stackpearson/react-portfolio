@@ -4,6 +4,8 @@ import {RxDropdownMenu} from 'react-icons/rx';
 import {IoMdCloseCircleOutline} from 'react-icons/io';
 import {IconContext} from 'react-icons';
 import {useState, useEffect} from 'react';
+import Phone from '../components/Phone';
+import Email from '../components/Email';
 
 function Nav() {
 
@@ -49,6 +51,10 @@ function Nav() {
             <li className='nav-item'>
                 <NavLink to="contact" className='nav-button'>Contact</NavLink>
             </li>
+            <div className='contact-container-nav'>
+        <Phone />
+        <Email />
+    </div>
             <IconContext.Provider value={{color: "white", size: "2em", className: "close-menu-icon"}}>
                 <IoMdCloseCircleOutline onClick={toggleNavVisibility}/>
             </IconContext.Provider>
@@ -61,6 +67,8 @@ function Nav() {
         </>
         )}
     </ul>
+
+
 
  </nav>
  

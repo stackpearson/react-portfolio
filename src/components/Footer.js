@@ -10,7 +10,7 @@ function Footer() {
         <div className='footer-container'>
             <div className='footer-item'><span>© Sawyer Pearson 2023</span></div>
             <div className='footer-item'><NavLink to="contact" className='footer-button'>Contact</NavLink></div>
-            <div style={{display: 'flex'}}>
+            <div className='contact-container'>
                 <Phone />
                 <Email />
             </div>

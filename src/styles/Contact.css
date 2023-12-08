@@ -46,9 +46,17 @@
     align-items: center;
   }
 
+  .social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
   .success-message, .contact-container {
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;

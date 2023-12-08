@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Contact.css'
 import {useForm, ValidationError} from '@formspree/react';
+import { CiLinkedin } from "react-icons/ci";
+import { FaGithub } from "react-icons/fa";
 
 function Contact() {
 
@@ -10,7 +12,16 @@ function Contact() {
 }
     return (
       <>
+
       <div className='contact-container'>
+        <div className='social-container'>
+          <div className='social-item'>
+            <CiLinkedin/>
+          </div>
+          <div className='social-item'>
+            <FaGithub/>
+          </div>
+        </div>
         <form onSubmit={handleSubmit}>
           <div className='contact-header'>
               <h2>Let's get in touch!</h2>

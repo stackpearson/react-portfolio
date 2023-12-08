@@ -4,6 +4,19 @@
   border-radius: .5em;
   background-color: rgba(255, 255, 255, 0.632);
  } 
+
+ .contact-container {
+  margin: 0;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+ }
+ .contact-header {
+  text-align: center;
+ }
   
   .contact-field {
     margin: .5em;
@@ -46,6 +59,12 @@
     align-items: center;
   }
 
+  .send-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .social-container {
     display: flex;
     justify-content: center;
@@ -53,7 +72,22 @@
 
   }
 
-  .success-message, .contact-container {
+  .social-item {
+    cursor: pointer;
+    margin: .1em;
+    padding: .2em;
+    border-radius: .25em;
+  }
+
+  .social-item a {
+    color: black;
+  }
+
+  .social-item:hover {
+    background-color: #1d4fd88e;
+  }
+
+  .success-message {
     margin: 0;
     display: flex;
     flex-direction: column;

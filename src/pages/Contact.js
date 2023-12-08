@@ -3,6 +3,7 @@ import '../styles/Contact.css'
 import {useForm, ValidationError} from '@formspree/react';
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
+import {Link} from 'react-router-dom';
 
 function Contact() {
 
@@ -16,10 +17,15 @@ function Contact() {
       <div className='contact-container'>
         <div className='social-container'>
           <div className='social-item'>
-            <CiLinkedin/>
+            <Link to='https://www.linkedin.com/in/sawyer-pearson/' target='blank'>
+              <CiLinkedin/>
+            </Link>
+            
           </div>
           <div className='social-item'>
+            <Link to='https://github.com/stackpearson' target='blank'>
             <FaGithub/>
+            </Link>
           </div>
         </div>
         <form onSubmit={handleSubmit}>
@@ -39,7 +45,7 @@ function Contact() {
               <textarea id="message" name="message" placeholder='Please enter your message here'/>
             </div>
             <ValidationError prefix="Message" field="message" errors={state.errors}/>
-            <div>
+            <div className='send-button'>
               <button type="submit" disabled={state.submitting}>Send</button>
             </div>
           </div>      

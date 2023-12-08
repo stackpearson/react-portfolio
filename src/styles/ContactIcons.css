@@ -1,0 +1,7 @@
+.contact-icon {
+    cursor: pointer;
+}
+
+.contact-icon-container {
+    display: flex;
+}

@@ -1,6 +1,6 @@
-import logo from '../img/logo.svg';
 import '../styles/App.css';
 import Nav from '../components/Nav.js';
+import Footer from '../components/Footer.js';
 import {Route, Routes } from 'react-router-dom';
 import Home from './Home.js';
 import Projects from './Projects.js';
@@ -20,6 +20,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </div>
+    <Footer />
   </>);
 }
 

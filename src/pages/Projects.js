@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Projects.css';
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import garageGif from '../img/myGarage.gif';
 import spotifyGif from '../img/spotify-live.gif';

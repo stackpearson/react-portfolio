@@ -20,6 +20,10 @@
     border-radius: .5em;
 }
 
+.skill div {
+    text-align: center;
+  }
+
 .skill:hover {
     background-color: #1d4fd88e;
 }
@@ -68,6 +72,10 @@
 .skillText-items ul {
     list-style-type: disc;
     font-size: 1.2em;
+}
+
+.skillText-items li {
+    margin: .3em 0 .3em 0;
 }
 
 @media (max-width: 650px) {

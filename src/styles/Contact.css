@@ -1,4 +1,6 @@
  form {
+  display: flex;
+  flex-direction: column;
   border: 5px groove purple;
   padding: .25rem;
   border-radius: .5em;
@@ -6,8 +8,7 @@
  } 
 
  .contact-container {
-  margin: 0;
-  height: 70vh;
+  margin: 25px 0px 75px 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,8 +20,7 @@
  }
   
   .contact-field {
-    margin: .5em;
-    padding: .25em;
+    margin: .3em;
   }
 
   .contact-field button {
@@ -51,7 +51,7 @@
 
   #message {
     width: 350px;
-    height: 350px;
+    height: 300px;
     border: 2px solid black;
     border-radius: .5em;
     justify-content: center;
@@ -69,6 +69,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
+    overflow-y: auto;
 
   }
 

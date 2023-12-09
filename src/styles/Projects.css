@@ -3,6 +3,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-size: 2.5em;
+    padding-top: 5vh;
   }
+
+  .project-header {
+    font-size: 2em;
+    padding: .5em;
+  }
+  .carousel-root {
+    max-width: 800px;
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .temp {
+    filter:blur(8px);
+  }
+
+.project-link {
+  padding-top: 150px;
+}
+
+
+  

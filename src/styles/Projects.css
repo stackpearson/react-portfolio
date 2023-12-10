@@ -1,11 +1,5 @@
 .project-container {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5vh;
-    overflow-y: auto;
-    margin-bottom: 75px;
+    margin-bottom: 85px;
   }
 
   .project-header {
@@ -15,8 +9,7 @@
   .carousel-root {
     max-width: 800px;
     padding: 1vw;
-    display: flex;
-    flex-direction: column;
+    margin: 0 auto;
   }
 
   .temp {

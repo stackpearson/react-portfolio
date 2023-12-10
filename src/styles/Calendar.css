@@ -29,7 +29,7 @@
 
 @media (max-width: 405px) {
     .calendar {
-        padding: .1em;
+        padding: .5em;
         margin: 0 auto;
         border: none;
     }

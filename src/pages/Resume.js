@@ -1,9 +1,11 @@
 import React from 'react';
 import '../styles/Resume.css';
+import resume from '../assets/sawyer_pearson_developer_resume.pdf';
 
 function Resume() {
     return (
         <div className='resume-container'>
+            <button className='download-button'><a href={require("../assets/sawyer_pearson_developer_resume.pdf")} download='sawyer_pearson_developer_resume' target='_blank'>Download Resume</a></button>
             <div className='resume-heading'>
                 <h1>Full Stack Developer</h1><br/>
                 <p>Ambitious developer with a passion for creating powerful, intuitive web sites & web-based tools. Eight years of experience in eCommerce has allowed me to expand my technical skill set while contributing to meaningful projects.</p>
@@ -60,7 +62,7 @@ function Resume() {
                 <p><span className='achievement-title'>QA Automation:</span> Contributed to creating an automated test suite with over 220 unit tests</p><br/>
                 <p><span className='achievement-title'>Can Tool:</span> Created the front & back end for a customer service tool designed to improve efficiency by allowing representatives to create and store custom templated replies they can copy/paste through a chat platform.</p><br/>
                 <p><span className='achievement-title'>Ingredient Parsint Tool:</span> Created a lightweight app to strip ingredients off nutritional labels and assort them into an itemized list for faster product onboarding.</p><br/>
-                <p style={{fontSize: '.75em', textAlign: 'left'}}>*References available upon request</p>
+                <p style={{fontSize: '.75em', textAlign: 'left', marginBottom: '10px'}}>*References available upon request</p>
             </div>
         </div>
     );

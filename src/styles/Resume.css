@@ -2,6 +2,21 @@
   font-weight: bold;
 }
 
+.download-button {
+  background-color: #1d4fd88e;
+  padding: .25em;
+  border-radius: .25em;
+}
+
+.download-button:hover {
+  background-color: #1d4ed8;
+}
+
+.download-button a {
+  text-decoration: none;
+  color: white;
+}
+
 .resume-achievements {
   display: flex;
   flex-direction: column;
@@ -39,6 +54,7 @@
     font-size: 2.5em;
     max-width: 750px;
     margin: 0 auto;
+    padding: 5px;
   }
 
   .resume-job {

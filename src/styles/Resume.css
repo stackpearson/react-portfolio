@@ -1,8 +1,79 @@
+.achievement-title {
+  font-weight: bold;
+}
+
+.download-button {
+  background-color: #1d4fd88e;
+  padding: .25em;
+  border-radius: .25em;
+}
+
+.download-button:hover {
+  background-color: #1d4ed8;
+}
+
+.download-button a {
+  text-decoration: none;
+  color: white;
+}
+
+.resume-achievements {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  font-size: .5em;
+  margin-bottom: 125px;
+}
+
+.resume-experience h3 {
+  font-size: 1em;
+  font-weight: bold;
+  text-indent: 50px;
+  text-align: left;
+}
+
+.resume-heading, .resume-experience, .resume-skills {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: .5em;
+  margin: 1em;
+}
+
+.resume-heading h1, .resume-experience h2, .resume-achievements h2, .resume-achievements h2, .resume-skills h2 {
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+}
+
 .resume-container {
-    margin: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
     height: 100vh;
     font-size: 2.5em;
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 5px;
   }
+
+  .resume-job {
+    font-weight: normal;
+  }
+
+  .skill-list {
+    display: flex;
+    margin: 15px;
+  }
+
+  .skill-list ul {
+    list-style-type: disc;
+    text-align: left;
+  }
+
+  .skill-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+

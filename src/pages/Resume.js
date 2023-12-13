@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/Resume.css';
-import resume from '../assets/sawyer_pearson_developer_resume.pdf';
 
 function Resume() {
     return (

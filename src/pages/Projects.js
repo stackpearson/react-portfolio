@@ -5,6 +5,7 @@ import { Carousel } from 'react-responsive-carousel';
 import garageGif from '../img/myGarage.gif';
 import spotifyGif from '../img/spotify-live.gif';
 import printProjectTemp from '../img/printProjectTemp.png';
+import snowBot from '../img/snowBot.png';
 
 const Projects = () => {
     return (
@@ -28,10 +29,18 @@ const Projects = () => {
                 </div>
                 <div>
                     <div className='project-header'>
+                        <h2>Discord Bot</h2>
+                        
+                    </div> 
+                    <img className='project-image' alt='screen shot of commands and results from using a discord bot' src={snowBot} />
+                    <a href='https://github.com/stackpearson/SFWL-collectable-tracker' target='blank' className="legend">Check out the code here!</a>
+                </div>
+                <div>
+                    <div className='project-header'>
                         <h2>Coming soon!</h2>
                         <h2>3D Printing Job Tracker</h2>
                     </div> 
-                    <img className='temp project-image' alt='blurred image of a khanbhan board like application to be developed in the future' src={printProjectTemp} />
+                    <img className='temp project-image' alt='blurred khanbhan board like application to be developed in the future' src={printProjectTemp} />
                     <a href='https://github.com/stackpearson/3d-printing-api' target='blank' className="legend">Check out the code here!</a>
                 </div>
             </Carousel>

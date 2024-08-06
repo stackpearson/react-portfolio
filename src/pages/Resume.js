@@ -4,32 +4,32 @@ import '../styles/Resume.css';
 function Resume() {
     return (
         <div className='resume-container'>
-            <button className='download-button'><a href={require("../assets/sawyer_pearson_developer_resume.pdf")} download='sawyer_pearson_developer_resume' target='_blank'>Download Resume</a></button>
+            <button className='download-button'><a href={require("../assets/sawyer_pearson_qa.pdf")} download='sawyer_pearson_qa' target='_blank'>Download Resume</a></button>
             <div className='resume-heading'>
-                <h1>Full Stack Developer</h1><br/>
-                <p>Ambitious developer with a passion for creating powerful, intuitive web sites & web-based tools. Eight years of experience in eCommerce has allowed me to expand my technical skill set while contributing to meaningful projects.</p>
+                <h1>QA Engineer</h1><br/>
+                <p>Experienced, detail-oriented QA tester with extensive experience with manual testing & automation. Proven success with designing and executing comprehensive test plans, identifying and documenting defects, and collaborating with cross-functional teams in an agile environment to release high quality software.</p>
             </div>
             <div className='resume-skills'>
                 <h2>Skills</h2>
                 <div className='skill-list-container'>
                     <div className='skill-list'>
                         <ul>
-                            <li>HTML/CSS</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
-                            <li>Node.js</li>
-                            <li>MongoDB</li>
-                            <li>SQL</li>
+                            <li>Manual QA</li>
+                            <li>QA Automation</li>
+                            <li>API Testing</li>
+                            <li>CodeceptJS</li>
+                            <li>iOS/Android Emulators</li>
+                            <li>Testing Methodologies</li>
                         </ul>
                     </div>
                     <div className='skill-list'>
                         <ul>
-                            <li>iOS/Android emulators</li>
-                            <li>CodeceptJS</li>
-                            <li>QA Automation</li>
-                            <li>PostgreSQL</li>
-                            <li>Slack Integration</li>
-                            <li>SEO</li>
+                            <li>JavaScript/TypeScript</li>
+                            <li>React</li>
+                            <li>HTML/CSS</li>
+                            <li>Less/Sass</li>
+                            <li>SQL</li>
+                            <li>Agile Methodologies</li>
                         </ul>
                     </div>
                     <div className='skill-list'>
@@ -38,7 +38,7 @@ function Resume() {
                             <li>App Store Connect</li>
                             <li>Version Control</li>
                             <li>Jira & Trello</li>
-                            <li>Agile Methodologies</li>
+                            <li>Google Workspace</li>
                             <li>Remote Communication</li>
                         </ul>
                     </div>

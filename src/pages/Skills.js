@@ -109,7 +109,7 @@ const Skills = () => {
                     <li>Node.js with Knex</li>
                     <li>MongoDB</li>
                     <li>Python</li>
-                    <li>Automated Testing<br/>(mobile & web)</li>
+                    <li>API Testing</li>
                     <li>SQL</li>
                 </ul>
             </div>
@@ -119,7 +119,7 @@ const Skills = () => {
                     <li>iOS/Android Emulators</li>
                     <li>Version Control</li>
                     <li>Agile Methodologies</li>
-                    <li>Manual QA</li>
+                    <li>Manual/Autoamted QA</li>
                     <li>SEO</li>
                 </ul>
             </div>
